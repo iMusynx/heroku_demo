@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const { utils } = require('surgio');
+const { utils } = require('surgio')
 
 /**
  * 使用文档：https://surgio.royli.dev/
@@ -13,23 +13,23 @@ module.exports = {
   remoteSnippets: [
     {
       name: 'telegram', // 模板中对应 remoteSnippets.telegram
-      url: 'https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Telegram.list'
+      url: 'https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/Telegram/Telegram.list',
     },
     {
       name: 'netflix', // 模板中对应 remoteSnippets.netflix
-      url: 'https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Media/Netflix.list'
+      url: 'https://github.com/lhie1/Rules/raw/master/Surge/Surge%203/Provider/Media/Netflix.list',
     },
     {
       name: 'hbo', // 模板中对应 remoteSnippets.hbo
-      url: 'https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Media/HBO.list'
+      url: 'https://github.com/lhie1/Rules/raw/master/Surge/Surge%203/Provider/Media/HBO.list',
     },
     {
       name: 'hulu', // 模板中对应 remoteSnippets.hulu
-      url: 'https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Media/Hulu.list'
+      url: 'https://github.com/geekdada/surge-list/raw/master/hulu.list',
     },
     {
       name: 'paypal', // 模板中对应 remoteSnippets.paypal
-      url: 'https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/PayPal.list',
+      url: 'https://github.com/DivineEngine/Profiles/raw/master/Surge/Ruleset/Extra/PayPal.list',
     },
   ],
   customFilters: {
@@ -133,9 +133,8 @@ module.exports = {
   },
   gateway: {
     auth: true,
-    accessToken: 'surgio'
+    accessToken: 'surgio',
   },
   // 非常有限的报错信息收集
   analytics: true,
-};
-
+}
